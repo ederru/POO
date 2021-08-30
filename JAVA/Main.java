@@ -1,9 +1,7 @@
-class main {
+class Main {
 
     public static void main(String[] args) {
-        
-        for (int i = 0; i < 3; i++) {
-            System.out.println("Hola mundo!!"); 
-        }
+        Car car = new Car("AMEK42", "Alfonso Ramos", 4, "Toyota", "2012");
+        car.printCar();
     }
 }
